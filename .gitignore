@@ -15,4 +15,4 @@ src/**/*.css
 .idea/
 .vscode/
 package-lock.json
-/test
+/test  
