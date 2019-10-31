@@ -1,0 +1,89 @@
+/* Moving text on Main Photo Down */
+
+/* .header-content h1  {
+    position:relative;
+    top: 350px; */
+    /* left: 600px; */
+/* } */
+
+/* .header-content p {
+    position:relative;
+    top: 350px; */
+    /* left: 600px; */
+/* } */
+
+/* ul.top-social {
+    position:relative;
+    top: 350px; */
+    /* left: 600px; */
+/* } */
+
+/* Navigation Padding */
+
+nav {
+    padding: 15px;
+}
+
+
+/* Media Queries */
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .header-content h1 {
+        position:relative;
+        top: 175px;
+    }
+    .header-content p {
+        position:relative;
+        top: 175px;
+    }
+    ul.top-social {
+        position:relative;
+        top: 175px;
+
+        
+    }
+    #header {
+        background: url("../images/mobileView.png") repeat scroll center center / cover;
+    }
+
+
+}
+
+@media (min-width: 370px) and (max-width: 414px) {
+    .header-content h1 {
+        position:relative;
+        top: 280px;
+    }
+    .header-content p {
+        position:relative;
+        top: 280px;
+    }
+    ul.top-social {
+        position:relative;
+        top: 280px;
+    }
+
+    #header {
+        background: url("../images/mobileView.png") repeat scroll center center / cover;
+    }
+
+}
+
+
+
+/* Logo */
+.logo img {
+    width: 50px;
+}
+
+
+@media (min-width: 1024px){
+  /* .header-content h1 {
+      position:relative;
+      left: 450px;
+  }
+  .header-content p {
+    position:relative;
+    left: 450px;
+  } */
+}
